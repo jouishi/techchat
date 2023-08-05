@@ -1,9 +1,9 @@
 <div class="contents row">
   <% @posts.each do |post| %>
-      <p><%= post.text %></p>
-      <span class="name">
-        <%= post.name %>
-      </span>
-    </div>
+    <div class="post">
+      <p>タイトル：<%= post.title %></p>
+      <p>内容：<%= post.content %></p>
+      <span class="name">投稿者名：<%= post.author_name %></span>
+    </div> <!-- postクラスのdivタグを閉じる位置がここ -->
   <% end %>
 </div>
