@@ -49,3 +49,77 @@ div {
   justify-content: center; /* 水平方向に中央揃え */
   align-items: center; /* 垂直方向に中央揃え */
 }
+.contents {
+  display: flex; /* Flexbox を使用して要素を横並びにする */
+  justify-content: center; /* 横方向（左右）に中央揃えする */
+  align-items: center; /* 縦方向（上下）に中央揃えする */
+  flex-wrap: wrap; /* 要素が一列に収まらない場合は折り返す */
+  width: 700px; /* コンテンツの最大幅を指定 */
+  margin: 0 auto; /* 左右の余白を自動で調整して中央揃えする */
+  margin-top: 90px;
+}
+.additional-block {
+  width: 80px; /* 幅を80pxに変更 */
+  height: 100px;
+  background-color: #ee6352;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.post {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  max-width: 620px;
+  width: 100%;
+  height: 100px; 
+  position: relative;
+  flex: 1;
+  padding-left: 90px; /* タイトルと内容の左側に90pxの余白を追加 */
+}
+
+
+
+
+
+.comments-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.2; /* 行間を制御 */
+}
+
+.comments-number {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.comments-text {
+  font-size: 11px;
+}
+
+
+
+
+
+
+
+.title-and-name {
+  display: flex;
+  justify-content: space-between; /* タイトルと名前を横並びにする */
+}
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  width: 500px; /* タイトルの幅を指定 */
+}
+
+   
+
+
+  

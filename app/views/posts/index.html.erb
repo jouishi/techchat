@@ -1,9 +1,17 @@
 <div class="contents row">
   <% @posts.each do |post| %>
     <div class="post">
-      <p>タイトル：<%= post.title %></p>
-      <p>内容：<%= post.content %></p>
-      <span class="name">投稿者名：<%= post.author_name %></span>
+      <div class="additional-block">
+        <div class="comments-wrapper">
+          <p class="comments-number">0</p>
+          <p class="comments-text">comments</p>
+        </div>
+      </div>
+      <div class="title-and-name">
+        <p class="title"><%= post.title %></p>
+        <span class="name"><%= post.author_name %></span>
+      </div>
+      <p class="content"><%= post.content %></p>
     </div> <!-- postクラスのdivタグを閉じる位置がここ -->
   <% end %>
 </div>
