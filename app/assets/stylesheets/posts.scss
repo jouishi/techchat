@@ -23,20 +23,29 @@ div {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 65px; /* ヘッダーの高さを65pxに設定 */
   padding: 10px;
-  background-color: #f0f0f0; /* ヘッダーの背景色を設定 */
+  background-color: #1c3667; /* ヘッダーの背景色を設定 */
 }
 
 .header-title {
+  font-family: 'Roboto', sans-serif; /* フォントファミリーをRobotoに設定 */
+  font-size: 23px; /* フォントサイズを23pxに設定 */
+  font-weight: 100; /* フォントの太さを100（Thin）に設定 */
+  letter-spacing: 1.8px; /* 文字間を1.8pxに設定 */
+  color: #FFFFFF; /* 文字色を白(#FFFFFF)に設定 */
   margin-right: 10px; /* ヘッダー内のタイトルの右マージンを設定 */
 }
-
 .question-button {
-  margin-left: 10px; /* ボタンの左マージンを設定 */
-  padding: 8px 16px;
-  background-color: #007bff; /* ボタンの背景色を設定 */
-  color: white;
+  font-size: 16px; /* フォントサイズを16pxに設定 */
+  background-color: #ffffff; /* 背景色を白(#ffffff)に設定 */
+  color: #3A3736; /* 文字色を3A3736に設定 */
+  border-radius: 5px; /* 角丸を5pxに設定 */
   text-decoration: none;
-  border-radius: 5px;
+  height: 32px; /* 高さを32pxに設定 */
+  width: 80px; /* 横幅を80pxに設定 */
+  margin-right: 20px; /* 右の余白を20pxに設定 */
+  display: flex; /* テキストを中央に配置するためにflexを使用 */
+  justify-content: center; /* 水平方向に中央揃え */
+  align-items: center; /* 垂直方向に中央揃え */
 }
-
