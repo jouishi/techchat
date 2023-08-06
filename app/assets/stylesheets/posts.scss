@@ -1,3 +1,42 @@
-// Place all the styles related to the posts controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+/******************************************** 
+ リセット用
+*********************************************/
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+li,
+h1,
+h2,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+/*リセットここまで */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0; /* ヘッダーの背景色を設定 */
+}
+
+.header-title {
+  margin-right: 10px; /* ヘッダー内のタイトルの右マージンを設定 */
+}
+
+.question-button {
+  margin-left: 10px; /* ボタンの左マージンを設定 */
+  padding: 8px 16px;
+  background-color: #007bff; /* ボタンの背景色を設定 */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+

@@ -10,6 +10,10 @@
   </head>
 
   <body>
+    <header class="header-container">
+      <h1 class="header-title">TechChat</h1>
+      <%= link_to '質問する', new_post_path, class: 'question-button' %>
+    </header>
     <%= yield %>
   </body>
 </html>
