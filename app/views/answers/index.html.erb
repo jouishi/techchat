@@ -8,11 +8,7 @@
         </div>
       </div>
       <div class="title-and-name">
-        <p class="title">
-          <%= link_to answers_path do %>
-            <%= post.title %>
-          <% end %>
-        </p>
+        <p class="title"><%= post.title %></p>
         <span class="name"><%= post.author_name %></span>
       </div>
       <p class="content"><%= post.content %></p>

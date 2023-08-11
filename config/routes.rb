@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   root 'posts#index'
   get '/posts/new', to: 'posts#new', as: 'new_post'
+  get '/answers', to: 'answers#index', as: 'answers'
+
+
 
 
   resources :posts, only: [:index, :new, :create]
